@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center; /*căn giữa chiều cao*/
+  padding: 0 5%;
+}
+header .h-left a {
+  opacity: 1;
+  font-size: 24px;
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+}
+header .h-right a {
+  font-size: 20px;
+  text-decoration: none;
+  color: orange;
+  padding: 0 16px;
+  opacity: 0.6;
+}
+body {
+  background-color: #333;
+}
+body .heading {
+  margin: 32px 0;
+  font-size: 48px;
+  text-align: center;
+  color: orange;
+}
+body .content-picture {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+body .content-picture .container {
+  width: 43%;
+  padding: 16px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+body .content-picture .container img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+body .content-picture .container .text {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(228, 206, 182);
+}
+body .content-picture .container h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+body .content-picture .container .Add-Cart {
+  padding: 8px 24px;
+  background-color: #e49d2c;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
