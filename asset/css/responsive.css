@@ -1,0 +1,25 @@
+@media (min-width: 1024px) /*PC*/ {
+  .ti-menu {
+    display: none;
+  }
+}
+@media (max-width: 740px) /*mobile*/ {
+  .h-right {
+    display: none;
+  }
+  .ti-menu {
+    color: #fff;
+    font-size: 48px;
+  }
+  body .heading {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  body .content-picture {
+    display: block;
+  }
+  body .content-picture .container {
+    width: 100%;
+    padding: 32px;
+  }
+}
